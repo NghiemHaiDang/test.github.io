@@ -9,76 +9,83 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
-      <div class="container">
-        <div class="brandnav">
-            <div class="clz">
-                <div class="order">
-                    <p id="hotline">HOTLINE ĐẶT HÀNG:</p>
-                    <a id="phone" href="http://" target="_blank" rel="noopener noreferrer">058660 8660</a>
+   <center>
+   <div class="color">
+    <div class="background">
+        <div class="navigation">
+            <div class="itemsleft">
+                <a class="ti-layout-grid2 cal"></a>
+                <p class="cal">Calculator</p>
+            </div>
+            <div class="itemsright">
+                <a class="ti-minus" href="http://" target="_blank" rel="noopener noreferrer"></a>
+                <a class="ti-layout-width-full" href="http://" target="_blank" rel="noopener noreferrer"></a>
+                <a class="ti-close" href="http://" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+
+        </div>
+        <div class="screen">
+            <div class="up">
+                <div class="stand">
+                <i class="ti-view-list st"></i>
+                <p class="st">Standard</p>
+                <i class="ti-new-window st"></i>
                 </div>
-            </div>
-            <div class="clz">
-                <div class="name"><img src="//bizweb.dktcdn.net/100/414/728/themes/803486/assets/logo.png?1637514337643" data-lazyload="//bizweb.dktcdn.net/100/414/728/themes/803486/assets/logo.png?1637514337643" alt="CLOWNZ STREETWEAR" class="img-responsive center-block"></div>
-            </div>
-            <div class="clz">
-               <div class="find">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <p>Giỏ hàng</p>
-                    <p class="ti-shopping-cart"></p>
-                </a> 
-                <a class="ti-search" href="http://" target="_blank" rel="noopener noreferrer"></a>
-               </div>
-            </div>
+                <div class="time">
+                    <i class="ti-timer"></i>
+                </div>
 
-
+            </div>
+            <div class="down">
+                <!-- <p id="printf" ></p> -->
+                <input value="" id="printf" style="text-align: end;">
+            </div>
         </div>
-        <div class="brandnav">
-            <ul class="nav">
-                <li>
-                    <a class="top" href="http://" target="_blank" rel="noopener noreferrer">
-                        TOP  <i class="ti-angle-down"></i>  </a>
-                        <ul class="subtop">
-                            <li><a href="http://" target="_blank" rel="noopener noreferrer">Hoodile</a></li>
-                            <li><a href="http://" target="_blank" rel="noopener noreferrer">Sweatshirt</a></li>
-                            <li><a href="http://" target="_blank" rel="noopener noreferrer">Jacket</a></li>
-                            <li><a href="http://" target="_blank" rel="noopener noreferrer">T-Shirt</a></li>
-                            <li><a href="http://" target="_blank" rel="noopener noreferrer">Shirt</a></li>
-                        </ul>
-                   
-                </li>
-                <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">BOTTOM
-                        <i class="ti-angle-down"></i></a>
-                </li>
-                <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">ACCESSORY
-                        <i class="ti-angle-down"></i></a>
-                </li>
-                <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">MAGAZINE</a>
-                </li>
-                <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">THE WINTER SOLDIDER</a>
-                </li>
-                <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">COOL FOR THE SUMMER</a>  
-                </li>
-            </ul>
-        </div>
-      </div>
-    </div>
+        <div class="button">
+            <div class="function">
+                <a href="http://" target="_blank" rel="noopener noreferrer">MC</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">MR</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">M+</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">M-</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">MS</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">M 
+                    <i class="ti-angle-down"></i>
+                </a>
 
+            </div>
+            <div class="calculate">
+                <button>%</button>
+                <button onclick="dele()">CE</button>
+                <button>C</button>
+                <button>
+                    <i class="ti-face-smile"></i>
+                </button>
+                <button>1/x</button>
+                <button>x^2</button>
+                <button></button>
+                <button onclick="append('/')">/</button>
+                <button onclick="append('7')">7</button>
+                <button onclick="append('8')">8</button>
+                <button onclick="append('9')">9</button>
+                <button onclick="append('x')">x</button>
+                <button onclick="append('4')">4</button>
+                <button onclick="append('5')">5</button>
+                <button onclick="append('6')">6</button>
+                <button onclick="append('-')">-</button>
+                <button onclick="append('1')">1</button>
+                <button onclick="append('2')">2</button>
+                <button onclick="append('3')">3</button>
+                <button onclick="append('+')">+</button>
+                <button>+/-</button>
+                <button>0</button>
+                <button>.</button>
+                <button onclick="cal()">=</button>
 
-
-
-
-
-    <div class="content">
-        <div class="background">
-            <img src="slider_2_mobile.jpg" alt="">
+            </div>
         </div>
     </div>
-    <div class="footer"></div>
+   </div>
+   </center>
+   <script src="cal.js"></script>
 </body>
 </html>

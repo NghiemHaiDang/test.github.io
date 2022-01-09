@@ -1,118 +1,115 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-.header{
+.background{
+    width: 350px;
+    height: 500px;
+    box-shadow: 5px 5px #dddada;
+}
+.navigation{
     width: 100%;
-    height: 150px;
-    background-color:#fff;
-    letter-spacing: 2px;
-    font-weight: bold;
+    height: 8%;
     display: flex;
-    justify-content: center;
-    
 }
-.container{
-    height: 100%;
-    width: 80%;
-}
-.brandnav{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    align-items: end;
-    /* background-color: aquamarine; */
-}
-.clz{
-    width: calc(100%/3);
-    height: 100%;
-}
-.name{
-    width: 100%;
+.itemsleft{
+    width: 50%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: left;
+    align-items: center;
 }
-.order{
-    width: 100%;
+.cal{
+    margin: 10px;
+}
+.itemsright{
+    width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.itemsright a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.screen{
+    width: 100%;
+    height: 24%;
+}
+.up{
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: start;
-    align-items: end;
 }
-.find{
+.down{
     width: 100%;
-    height: 100%;
+    height:80%;
     display: flex;
     justify-content: end;
     align-items: end;
 }
-#hotline{
-
-
-}
-#phone:hover{
-    color: red;
-}
-#phone{
-    color: #1c1c1c;
-    text-decoration: none;
-    padding-left: 5px;
-}
-.ti-shopping-cart{
-    padding-left:5px ;
-}
-.clz a:hover{
-    color: red;
-}
-.clz a{
-    display: flex;
-    text-decoration: none;
-    color: #1c1c1c;
-}
-.ti-search{
-    padding-left: 10px;
-}
-.ti-search:hover{
-    color: #1c1c1c;
-}
-
-.nav{
-    display: flex;
-    list-style-type: none;
-}
-.nav li{
-    position: relative;
-}
-.nav li a{
-    text-decoration: none;
-    margin: 15px;
-    color: black;
-    display: inline-block;
-}
-.nav li:hover .subtop{
-    display: block;
-}
-.subtop{
-   list-style-type: none;
-   position: absolute;
-   background-color: blanchedalmond;
-   width: 200px;
-   display: none;
-}
-
-
-
-
-.content{
+#printf{
     width: 100%;
+    height: 60%;
+    border: none;
 }
-.background{
-    width: 100%;
-    height: 500px;
-}
-.background img{
-    width: 100%;
+.stand{
+    width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: start;
 }
+.time{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.st{
+    margin-left:10px;
+    margin-right:10px;
+}
+.time i{
+    margin-left:10px;
+    margin-right:10px;  
+}
+.button{
+    width: 100%;
+    height: 68%;
+}
+.function{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.function a{
+    float: left;
+    width: calc(100%/6);
+    text-decoration: none;
+    color: black;
+}
+.calculate{
+    width: 100%;
+    height: 90%;
+}
+.calculate button:hover{
+    background-color: wheat;
+}
+.calculate button{
+    float: left;
+    width: calc(100%/4);
+    height: calc(100%/6);
+    font-size: 20px;
+    border: 2px solid rgba(14, 6, 6, 0.048);
+}
+.lastbutton{
+    background-color:#3333ff7c;
+    color: white;
+}
+/* //cursor */
